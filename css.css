@@ -16,7 +16,10 @@ img {
     position: relative;
 }
 .auto {
-/*helyezd el az autót a lámpa alatt az úttesten!*/
+    position: absolute;
+    top: 40%;
+    left: calc(30% - 100px);
+    padding: 10px;
 
 }
 .lampa {
@@ -45,10 +48,11 @@ img {
 .zold {
     background: rgb(59, 190, 47);
 }
+
 .balroljobbra {
     /*https://webiskola.hu/css-ismeretek/css-animacio-animation-keszitese/*/
     animation-name: animacio;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-timing-function: linear;
     /* animation-delay: 2s;*/
     animation-iteration-count: 1;
